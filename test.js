@@ -6,7 +6,7 @@ async function getPrediction(study_hours, class_attendance) {
         class_attendance: class_attendance
     });
 
-    console.log("Probability of passing:", response.data.probability_of_passing, "%");
+    console.log("Probability of passing:", response.data.probability_of_passing);
 }
 
 // Example usage
